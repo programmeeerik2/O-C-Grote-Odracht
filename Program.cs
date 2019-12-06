@@ -10,6 +10,7 @@ namespace grote_opdracht
     {
         static void Main(string[] args)
         {
+            //test
             string[] afstanden_io = System.IO.File.ReadAllLines(@"F:\docu\drive\opti\groot\AfstandenMatrix.txt");
             string[] order_io= System.IO.File.ReadAllLines(@"F:\docu\drive\opti\groot\Orderbestand.txt");
             IEnumerable<string> orders_st = order_io.Skip(1);
